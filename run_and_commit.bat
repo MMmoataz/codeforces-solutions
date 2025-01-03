@@ -1,4 +1,7 @@
 @echo off
+echo Changing to repository directory...
+cd /d "%~dp0"
+
 echo Adding all changes to Git...
 git add .
 
